@@ -1,0 +1,91 @@
+.Header-main {
+  background-color: black;
+  color: #f1f1f1;
+  display: flex;
+  justify-content: space-around;
+}
+
+body {
+  background-image: url(../src/assets/fundo.svg);
+}
+
+.navBar {
+  color: #fff;
+ 
+}
+
+.ContainerLinks {
+padding-left: 890px;
+  
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.UlAll {
+  list-style: none;
+  justify-content: space-around;
+  display: flex; 
+  color: #f1f1f1;
+}
+
+.page {
+  text-decoration: none;
+  color: #f1f1f1;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: greenyellow;
+}
+
+.hero {
+  padding: 100px;
+  color: #f1f1f1;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  color: #f1f1f1;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.cta-button:hover {
+  display: inline-block;
+  color: greenyellow;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+footer {
+  padding: 30px;
+  background-color: black;
+  font-size: 12px;
+  color: #f1f1f1;
+  letter-spacing: 5px;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+.botao_cadastrar {
+  display: inline-block;
+  color: black;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: sans-serif;
+  background-color: greenyellow;
+  font-size: 20px;
+}
+
+.botao_input {
+  font-size: 20px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  color: #757070;
+  border-radius: 5px;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 50px;
+}
+
+a:nth-child(2) {
+  background-color: black;
+}
+
+.cta-button {
+  margin-top: 10px;
+}

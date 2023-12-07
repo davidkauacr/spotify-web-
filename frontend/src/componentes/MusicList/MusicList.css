@@ -1,0 +1,43 @@
+/* Estilos específicos para o componente MusicList */
+
+.playlist-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.playlist-image {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px; /* Aplica um fundo arredondado à imagem */
+}
+
+.music-list {
+  list-style: none;
+  color: #FFFFFF;
+  padding: 0;
+}
+
+.music-item {
+  font-size: 16px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.play-icon {
+  cursor: pointer;
+  color: #ffffff;
+  transition: color 0.3s;
+  display: inline-block;
+  background-color: #333; /* Adiciona um fundo escuro ao botão */
+  padding: 5px 10px;
+  border-radius: 20px; /* Aplica um fundo arredondado ao botão */
+}
+
+.play-icon:hover {
+  color: #ffffff;
+}
